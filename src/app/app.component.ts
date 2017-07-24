@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import 'codemirror/mode/htmlmixed/htmlmixed';
 
 @Component({
   selector: 'app-root',

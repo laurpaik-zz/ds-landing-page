@@ -5,10 +5,12 @@ import { HttpModule } from '@angular/http';
 import { CodemirrorModule } from 'ng2-codemirror';
 
 import { AppComponent } from './app.component';
+import { CodemirrorComponent } from './codemirror/codemirror.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CodemirrorComponent
   ],
   imports: [
     BrowserModule,
